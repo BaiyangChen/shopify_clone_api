@@ -79,8 +79,6 @@ GEM
     bcrypt_pbkdf (1.1.1-arm64-darwin)
     benchmark (0.4.0)
     bigdecimal (3.1.9)
-    bootsnap (1.18.4)
-      msgpack (~> 1.2)
     brakeman (7.0.2)
       racc
     builder (3.3.0)
@@ -140,7 +138,6 @@ GEM
     marcel (1.0.4)
     mini_mime (1.1.5)
     minitest (5.25.5)
-    msgpack (1.8.0)
     net-imap (0.5.7)
       date
       net-protocol
@@ -304,7 +301,6 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt (~> 3.1.7)
-  bootsnap
   brakeman
   debug
   dotenv-rails (~> 3.1)
