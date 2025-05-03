@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# 自动运行数据库迁移（建表）
+bundle exec rails db:migrate
+
+# 自动运行 seeds.rb（插入初始数据）
+bundle exec rails db:seed
