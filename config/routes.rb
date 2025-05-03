@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get "/run_seeds", to: "seed_runner#run"
   resources :products
   post "/signup", to: "auth#signup" #当手动输入，或者点击按钮或者链接的时候，网址变成/signup，会自动在auth后面添加controller，然后找到AuthController（在auth_controller中class名字是AuthController），然后找到signup的方法
   post "/login", to: "auth#login"
