@@ -1,3 +1,15 @@
+#添加分类
+puts "🌱 Seeding categories..."
+
+Category.destroy_all
+
+cat1 = Category.create!(name: "Clothing")
+cat2 = Category.create!(name: "Pet Products")
+
+puts "✅ Categories created!"
+
+
+#添加商品
 puts "🌱 Seeding products..."
 
 Product.destroy_all
@@ -85,6 +97,7 @@ Product.create!([
 puts "✅ Done seeding!"
 
 
+#添加admin 用户
 puts "🌱 Seeding admin user..."
 
 User.destroy_all
