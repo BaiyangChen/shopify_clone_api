@@ -1,8 +1,8 @@
 class ProductsController < ApplicationController
   before_action :admin_only, only: [:create, :update, :destroy]
     def index
-        products = Product.all
-        render json: products
+        product = Product.includes(:category).all
+        render json: product.as_json(include: { category: { only: [:name] } })
     end
     def show
         product = Product.find(params[:id])
