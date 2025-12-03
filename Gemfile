@@ -50,4 +50,4 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "dotenv-rails", "~> 3.1"
+gem "dotenv-rails", "~> 3.2"
