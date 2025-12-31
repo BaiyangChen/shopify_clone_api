@@ -6,7 +6,7 @@ gem "rails", "~> 8.0.2"
 gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 
-gem 'bcrypt', '~> 3.1.7'   # 密码加密
+gem 'bcrypt', '~> 3.1.21'  # 密码加密
 gem 'jwt'                  # 生成 Token
 
 gem "puma", ">= 5.0"
